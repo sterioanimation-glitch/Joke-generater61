@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Water Bottles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-blue-50 to-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold text-blue-600">💧 AquaCare</h1>
+      <nav>
+        <ul class="flex space-x-6 font-medium text-gray-700">
+          <li><a href="#" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 pb-20 text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-blue-700 leading-snug">Stay Hydrated, Stay Healthy</h2>
+    <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+      We provide <span class="font-semibold text-blue-600">free water bottles</span> to spread awareness about hydration and healthy living.  
+      Because everyone deserves clean water and care.
+    </p>
+    <button class="mt-6 px-8 py-3 bg-blue-600 text-white font-semibold rounded-2xl shadow-lg hover:bg-blue-700 transition">
+      Get Your Free Bottle
+    </button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-blue-50">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://images.unsplash.com/photo-1582545067983-0f75a6b06d55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Water Bottle" class="rounded-2xl shadow-lg">
+      <div>
+        <h3 class="text-3xl font-bold text-blue-700">Why Free Water Bottles?</h3>
+        <p class="mt-4 text-gray-700 leading-relaxed">
+          Hydration is a basic human need, yet many people underestimate its importance.  
+          Our initiative distributes free water bottles to promote:
+        </p>
+        <ul class="mt-6 space-y-3 text-gray-800 font-medium">
+          <li>✅ Healthy lifestyle & awareness</li>
+          <li>✅ Easy access to clean water on the go</li>
+          <li>✅ Eco-friendly reusable bottles to reduce plastic waste</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action -->
+  <section class="py-16 text-center">
+    <h3 class="text-3xl font-bold text-gray-800">Join the Movement 🌍</h3>
+    <p class="mt-4 text-gray-600 max-w-xl mx-auto">
+      Together, we can build a community where hydration is never overlooked.  
+      Claim your free water bottle today and inspire others to stay healthy!
+    </p>
+    <button class="mt-6 px-8 py-3 bg-green-500 text-white font-semibold rounded-2xl shadow-lg hover:bg-green-600 transition">
+      Claim Now
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-blue-600 text-white py-6 mt-12">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p>&copy; 2025 AquaCare. All rights reserved.</p>
+      <p>📧 contact@aquacare.org</p>
+    </div>
+  </footer>
+
+</body>
+</html>
